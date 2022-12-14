@@ -51,12 +51,12 @@ export default class GamePlay {
 
     if (this.dead.textContent >= 10) {
       this.resetScore();
-      alert("Победа!!");
+      alert("Победа!!"); // eslint-disable-line no-alert
     }
 
     if (this.lost.textContent >= 5) {
       this.resetScore();
-      alert("Поражение!");
+      alert("Поражение!"); // eslint-disable-line no-alert
     }
 
     this.changeCursor();
